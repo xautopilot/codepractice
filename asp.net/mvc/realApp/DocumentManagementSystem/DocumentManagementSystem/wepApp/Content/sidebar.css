@@ -1,0 +1,108 @@
+
+body {
+    background-color: white;
+    font-family: Verdana;
+    font-size: 8pt;
+    margin: 0 !important;
+    padding: 0 !important;
+    white-space: nowrap;
+}
+.tab {
+    display: none !important;
+}
+.activeTab {
+    display: block !important;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 15px;
+}
+input[type="text"] {
+    border: 1px solid #b1a598;
+    padding: 2px;
+}
+input[type="text"]:focus {
+}
+.error {
+    color: red;
+    font-weight: bold;
+}
+ul#indexList {
+    margin: 10px 0 0;
+    padding: 0;
+}
+ul#indexList li {
+    background: rgba(0, 0, 0, 0) url("/images/treenodedot.gif") no-repeat scroll left center;
+    list-style: outside none none;
+    padding-bottom: 2px;
+    padding-left: 13px;
+    padding-top: 2px;
+}
+#contentsList ul {
+    margin-left: 0;
+    margin-top: 0;
+    padding: 0;
+}
+#contentsList ul ul {
+    margin: 0 !important;
+    padding-left: 15px;
+}
+#contentsList ul li {
+    list-style: outside none none;
+    padding-bottom: 3px;
+}
+#contentsList ul li a {
+    color: black;
+    text-decoration: none;
+}
+#contentsList ul li img {
+    border: 0 none;
+    vertical-align: middle;
+}
+#tabs {
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+}
+#tabs ul {
+    background-color: #efebe7;
+    border-bottom: 1px solid #b1a598;
+    margin-bottom: 0 !important;
+    margin-left: 0;
+    margin-top: 0 !important;
+    padding-bottom: 3px;
+    padding-left: 5px;
+    padding-top: 10px;
+}
+#tabs {
+    border-bottom: 2px solid white;
+}
+#tabs ul li {
+    border-left: 1px solid #b1a598;
+    border-right: 1px solid #b1a598;
+    border-top: 1px solid #b1a598;
+    display: inline;
+    padding: 3px 5px;
+}
+#tabs ul li.selected, ul#tabs li:hover {
+    background-color: white;
+}
+#tabs ul li.selected {
+    border-bottom: 1px solid white;
+}
+#tabs ul li a {
+    color: black;
+    text-decoration: none;
+}
+a.selected {
+    background: #eee none repeat scroll 0 0;
+    border: 1px solid #ccc;
+    padding: 1px;
+}
+#errorText {
+    margin-top: 10px;
+}
+#contentList > div.tree-node:first-child > span {
+    font-size: 130%;
+    line-height: 200%;
+}

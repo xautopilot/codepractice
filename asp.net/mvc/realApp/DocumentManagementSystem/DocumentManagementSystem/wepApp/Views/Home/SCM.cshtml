@@ -1,0 +1,116 @@
+﻿
+@*@{
+    ViewBag.Title = "SCM";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>SCM</h2>*@
+
+<html idmmzcc-ext-docid="674734080">
+<head>
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <title></title>
+    <link title="Default Style" media="all" href="common.css" type="text/css" rel="stylesheet">
+    <link media="all" href="main.css" type="text/css" rel="stylesheet">
+    <link href="ptree/tree.css" rel="stylesheet" type="text/css">
+    <link href="sidebar.css" rel="stylesheet" type="text/css">
+
+
+</head>
+<body>
+
+
+    <div style="color: rgb(255, 255, 255);" id="banner">
+        <div id="rightSide">
+            <label for="search">Search: </label>
+            <input type="search" style="width:19em; margin-right: 10px" placeholder="Enter search request" id="fsearch">
+            <a onclick="document.getElementById ('content_frame').contentWindow.print ()" href="#"><img width="24" height="24" title="Print this document" alt="Print" src="images/print.png" class="toolbar"></a>
+            <a href="" id="pageLink">
+                <img width="24" height="24" title="Link to this document" alt="Link to this document" src="images/link.png" class="toolbar">
+            </a>
+        </div>
+
+        <div id="header">
+            <h1>Mono Documentation</h1>
+        </div>
+        <div id="dlogin">
+            <a href="javascript:parent.content.login (parent.content.window.location)" id="login"></a>
+        </div>
+
+        <div id="fsearch_companion"></div>
+        <div id="fsearch_window"></div>
+    </div>
+    <div id="main_part">
+        <div id="side">
+            <div class="activeTab" id="contents">
+                <div id="contentList"><div class="tree-node"><span class="tree-label"><a href="?link=root:" title="Documentation List">Documentation List</a></span><div class="tree-node-collapsed"><span class="tree-label"><img width="18" height="18" src="xtree/images/msdn2/Tplus.gif"><a href="http://docs.go-mono.com/?display_all=true" title="Base Class Library">Base Class Library</a></span></div><div class="tree-node-collapsed"><span class="tree-label"><img width="18" height="18" src="xtree/images/msdn2/Tplus.gif"><a href="?link=root:/CocosSharp" title="CocosSharp">CocosSharp</a></span></div><div class="tree-node-collapsed"><span class="tree-label"><img width="18" height="18" src="xtree/images/msdn2/Tplus.gif"><a href="?link=root:/man" title="Commands and Files">Commands and Files</a></span></div><div class="tree-node-collapsed"><span class="tree-label"><img width="18" height="18" src="xtree/images/msdn2/Tplus.gif"><a href="?link=root:/classlib-Gendarme.Framework" title="Gendarme Framework">Gendarme Framework</a></span></div><div class="tree-node-collapsed"><span class="tree-label"><img width="18" height="18" src="xtree/images/msdn2/Tplus.gif"><a href="?link=root:/classlib-gnome" title="Gnome Libraries">Gnome Libraries</a></span></div><div class="tree-node-collapsed"><span class="tree-label"><img width="18" height="18" src="xtree/images/msdn2/Tplus.gif"><a href="?link=root:/languages" title="Languages">Languages</a></span></div><div class="tree-node-collapsed"><span class="tree-label"><img width="18" height="18" src="xtree/images/msdn2/Tplus.gif"><a href="?link=root:/embed" title="Mono Embedding">Mono Embedding</a></span></div><div class="tree-node-collapsed"><span class="tree-label"><img width="18" height="18" src="xtree/images/msdn2/Tplus.gif"><a href="http://docs.go-mono.com/" title="Mono Libraries">Mono Libraries</a></span></div><div class="tree-node-collapsed"><span class="tree-label"><img width="18" height="18" src="xtree/images/msdn2/Tplus.gif"><a href="?link=root:/monofastcgi" title="Mono Web Server Library (FastCGI)">Mono Web Server Library (FastCGI)</a></span></div><div class="tree-node-collapsed"><span class="tree-label"><img width="18" height="18" src="xtree/images/msdn2/Tplus.gif"><a href="?link=root:/monowebserver" title="Mono Web Server Library (XSP)">Mono Web Server Library (XSP)</a></span></div><div class="tree-node-collapsed"><span class="tree-label"><img width="18" height="18" src="xtree/images/msdn2/Tplus.gif"><a href="?link=root:/monomac-lib" title="MonoMac Framework">MonoMac Framework</a></span></div><div class="tree-node-collapsed"><span class="tree-label"><img width="18" height="18" src="xtree/images/msdn2/Tplus.gif"><a href="?link=root:/classlib-novell" title="Novell Libraries">Novell Libraries</a></span></div><div class="tree-node-collapsed"><span class="tree-label"><img width="18" height="18" src="xtree/images/msdn2/Tplus.gif"><a href="?link=root:/Xamarin.UITest.Docs" title="Xamarin TestCloud">Xamarin TestCloud</a></span></div><div class="tree-node-collapsed"><span class="tree-label"><img width="18" height="18" src="xtree/images/msdn2/Tplus.gif"><a href="?link=root:/MonoAndroid-lib" title="Xamarin.Android Framework">Xamarin.Android Framework</a></span></div><div class="tree-node-collapsed"><span class="tree-label"><img width="18" height="18" src="xtree/images/msdn2/Tplus.gif"><a href="?link=root:/Xamarin.Forms" title="Xamarin.Forms Framework">Xamarin.Forms Framework</a></span></div><div class="tree-node-collapsed"><span class="tree-label"><img width="18" height="18" src="xtree/images/msdn2/Tplus.gif"><a href="?link=root:/XamInsights" title="Xamarin.Insights Framework">Xamarin.Insights Framework</a></span></div><div class="tree-node-collapsed"><span class="tree-label"><img width="18" height="18" src="xtree/images/msdn2/Tplus.gif"><a href="?link=root:/ios-classic" title="Xamarin.iOS - Classic API">Xamarin.iOS - Classic API</a></span></div><div class="tree-node-collapsed"><span class="tree-label"><img width="18" height="18" src="xtree/images/msdn2/Lplus.gif"><a href="?link=root:/ios-unified" title="Xamarin.iOS - Unified API">Xamarin.iOS - Unified API</a></span></div></div></div>
+            </div>
+        </div>
+        <div id="content_frame_wrapper"><iframe src="monodoc.ashx?link=root:" id="content_frame"></iframe></div>
+    </div>
+
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
+    <script src="search.js"></script>
+    <script src="xtree/xmlextras.js"></script>
+    <script src="ptree/tree.js"></script>
+    <script src="sidebar.js"></script>
+    <script type="text/javascript">
+        var tree = new PTree ();
+        tree.strSrcBase = 'monodoc.ashx?tree=';
+        tree.strActionBase = '?link=';
+        tree.strImagesBase = 'xtree/images/msdn2/';
+        tree.strImageExt = '.gif';
+        tree.onClickCallback = function (url) { change_page (url); };
+        var content = document.getElementById ('contentList');
+        var root = tree.CreateItem (null, 'Documentation List', 'root:', '', true);
+        content.appendChild (root);
+        tree.CreateItem (root, 'Base Class Library', 'http://docs.go-mono.com/?display_all=true', '0', false);
+        tree.CreateItem (root, 'CocosSharp', 'root:/CocosSharp', '1', false);
+        tree.CreateItem (root, 'Commands and Files', 'root:/man', '2', false);
+        tree.CreateItem (root, 'Gendarme Framework', 'root:/classlib-Gendarme.Framework', '3', false);
+        tree.CreateItem (root, 'Gnome Libraries', 'root:/classlib-gnome', '4', false);
+        tree.CreateItem (root, 'Languages', 'root:/languages', '5', false);
+        tree.CreateItem (root, 'Mono Embedding', 'root:/embed', '6', false);
+        tree.CreateItem (root, 'Mono Libraries', 'http://docs.go-mono.com/', '7', false);
+        tree.CreateItem (root, 'Mono Web Server Library (FastCGI)', 'root:/monofastcgi', '8', false);
+        tree.CreateItem (root, 'Mono Web Server Library (XSP)', 'root:/monowebserver', '9', false);
+        tree.CreateItem (root, 'MonoMac Framework', 'root:/monomac-lib', '10', false);
+        tree.CreateItem (root, 'Novell Libraries', 'root:/classlib-novell', '11', false);
+        tree.CreateItem (root, 'Xamarin TestCloud', 'root:/Xamarin.UITest.Docs', '12', false);
+        tree.CreateItem (root, 'Xamarin.Android Framework', 'root:/MonoAndroid-lib', '13', false);
+        tree.CreateItem (root, 'Xamarin.Forms Framework', 'root:/Xamarin.Forms', '14', false);
+        tree.CreateItem (root, 'Xamarin.Insights Framework', 'root:/XamInsights', '15', false);
+        tree.CreateItem (root, 'Xamarin.iOS - Classic API', 'root:/ios-classic', '16', false);
+        tree.CreateItem (root, 'Xamarin.iOS - Unified API', 'root:/ios-unified', '17', true);
+
+
+        update_tree = function () {
+            var tree_path = $('#content_frame').contents ().find ('meta[name=TreePath]');
+            if (tree_path.length &gt; 0) {
+                var path = tree_path.attr ('value');
+                tree.ExpandFromPath (path);
+            }
+        };
+        update_tree ();
+        add_native_browser_link = function () {
+            var contentDiv = $('#content_frame').contents ().find ('div[class=Content]').first ();
+            if (contentDiv.length &gt; 0 &amp;&amp; contentDiv.attr ('id')) {
+                var id = contentDiv.attr ('id').replace (':Summary', '');
+                var h2 = contentDiv.children ('h2').first ();
+                if (h2.prev ().attr ('class') != 'native-browser')
+                    h2.before ('&lt;p&gt;&lt;a class="native-browser" href="mdoc://' + encodeURIComponent (id) + '"&gt;&lt;span class="native-icon"&gt;&lt;img src="images/native-browser-icon.png" /&gt;&lt;/span&gt;Open in Native Browser&lt;/a&gt;&lt;/p&gt;');
+            }
+        };
+        add_native_browser_link ();
+
+        content_frame.load (update_tree);
+        content_frame.load (add_native_browser_link);
+    </script>
+
+
+
+
+</body>
+</html>
+

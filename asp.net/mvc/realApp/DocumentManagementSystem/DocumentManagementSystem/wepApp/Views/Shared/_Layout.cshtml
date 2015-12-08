@@ -3,10 +3,17 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>@ViewBag.Title - My ASP.NET Application</title>
+    <title>@ViewBag.Title - Document Management System</title>
     @Styles.Render("~/Content/css")
     @Scripts.Render("~/bundles/modernizr")
+    
 
+
+    @*<meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <link media="all" href="~/Content/main.css" type="text/css" rel="stylesheet">
+    <link href="~/Content/tree.css" rel="stylesheet" type="text/css">
+    <link href="~/Content/sidebar.css" rel="stylesheet" type="text/css">
+    <link title="Default Style" media="all" href="~/Content/common.css" type="text/css" rel="stylesheet" />*@
 </head>
 <body>
     <div class="navbar navbar-inverse navbar-fixed-top">
@@ -17,15 +24,16 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                @Html.ActionLink("Application name", "Index", "Home", null, new { @class = "navbar-brand" })
+                @Html.ActionLink("MASCO ERP", "Index", "Home", null, new { @class = "navbar-brand" })
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
-                    <li>@Html.ActionLink("Home", "Index", "Home")</li>
-                    <li>@Html.ActionLink("About", "About", "Home")</li>
-                    <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
+                    <li>@Html.ActionLink("SCM", "SCM", "MainModule")</li>
+                    <li>@Html.ActionLink("HRIS", "About", "Home")</li>
+                    <li>@Html.ActionLink("Merchandising", "Contact", "Home")</li>
                 </ul>
-                @Html.Partial("_LoginPartial")
+                @Html.ActionLink("Dashboard", "Index", "Dashboard")
+                
             </div>
         </div>
     </div>
@@ -33,7 +41,7 @@
         @RenderBody()
         <hr />
         <footer>
-            <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
+            <p>&copy; @DateTime.Now.Year - Arman</p>
         </footer>
     </div>
 

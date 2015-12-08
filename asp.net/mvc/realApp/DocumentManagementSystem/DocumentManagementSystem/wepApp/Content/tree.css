@@ -1,0 +1,47 @@
+
+body {
+    background-color: #fff;
+    color: Black;
+    font-family: verdana;
+    font-size: 70.5%;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+    vertical-align: middle;
+}
+.tree-node, .tree-node-collapsed {
+    border: 0 none;
+    margin: 0;
+    padding: 0;
+    white-space: nowrap;
+}
+.tree-label .tree-label-selected {
+    border: 0 none;
+    margin: 0;
+    padding: 0;
+    white-space: nowrap;
+}
+.tree-node-collapsed .tree-node, .tree-node-collapsed .tree-node-collapsed {
+    display: none;
+}
+.tree-label-selected a, .tree-label-selected a:hover {
+    background: highlight none repeat scroll 0 0;
+    color: highlighttext;
+    text-decoration: none;
+}
+.tree-label a {
+    background: #fff none repeat scroll 0 0;
+    color: black;
+    text-decoration: none;
+}
+.tree-label a:hover {
+    background: #dfdfdf none repeat scroll 0 0;
+    border: 1px solid grey;
+    color: black;
+    padding: 1px;
+    text-decoration: none;
+}
+.tree-node img {
+    border: 0 none;
+    vertical-align: middle;
+}

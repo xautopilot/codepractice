@@ -1,0 +1,129 @@
+
+#fsearch_window {
+    background: white none repeat scroll 0 0;
+    border: 1px solid black;
+    display: none;
+    opacity: 0;
+    overflow: hidden;
+    padding: 5px;
+    position: absolute;
+    right: 80px;
+    text-align: left;
+    top: 40px;
+    width: 25em;
+    z-index: 60;
+}
+#fsearch_window a {
+    color: blue;
+    font-family: monospace;
+    text-decoration: none;
+}
+#fsearch_window .threedots {
+    color: #333;
+    font-family: sans-serif;
+    font-size: x-small;
+}
+#fsearch_window .selected {
+    background-color: #679ef1;
+    color: white;
+}
+#fsearch_companion {
+    background-color: white;
+    color: grey;
+    display: none;
+    position: absolute;
+    right: 410px;
+    top: 40px;
+    z-index: 60;
+}
+iframe {
+    border: 0 none;
+    font: inherit;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+body, div {
+    margin: 0;
+    padding: 0;
+}
+img.toolbarsep {
+    border: 0 none;
+    margin-bottom: 1px;
+    margin-top: 1px;
+    padding-bottom: 3px;
+    padding-top: 3px;
+    vertical-align: middle;
+}
+img.toolbar {
+    border: 0 none;
+    margin: 1px;
+    padding: 3px;
+    vertical-align: middle;
+}
+img.toolbar:hover {
+    border-color: white #b1a598 #b1a598 white;
+    border-style: solid;
+    border-width: 1px;
+    margin: 0;
+}
+img.toolbar:active {
+    border-color: #b1a598 white white #b1a598;
+    border-style: solid;
+    border-width: 1px;
+}
+#login {
+    float: right;
+    padding: 5px;
+    position: fixed;
+    right: 0;
+    top: 0;
+}
+#rightSide {
+    float: right;
+    padding: 5px;
+    position: relative;
+    right: 0;
+    top: 2px;
+}
+#banner {
+    background: #679ef1 url("mdocimages/headerbg.png") no-repeat scroll 100% 50%;
+    border-bottom: 1px dotted #3363bd;
+}
+#header {
+    color: black;
+    height: 40px;
+    margin-bottom: 0;
+    padding: 0 0 0 15px;
+    position: relative;
+    width: 50%;
+}
+#header h1 {
+    color: white;
+    font-family: arial,helvetica,verdana,sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 1.8em;
+    margin: 0;
+}
+body, div {
+    border: 0 none;
+    font: inherit;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+html, body {
+    height: 100%;
+}
+#side {
+    border-right: 1px solid black;
+    float: left;
+    height: 93%;
+    overflow: auto;
+    width: 20%;
+}
+#content_frame {
+    height: 94%;
+    width: 79.9%;
+}
