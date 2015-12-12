@@ -32,7 +32,14 @@
                     <li>@Html.ActionLink("HRIS", "About", "Home")</li>
                     <li>@Html.ActionLink("Merchandising", "Contact", "Home")</li>
                 </ul>
-                @Html.ActionLink("Dashboard", "Index", "Dashboard")
+                @Html.Partial("_LoginPartial");
+                @if(Request.IsAuthenticated)
+                {
+                    <ul class="nav navbar-nav navbar-right">
+                    <li>@Html.ActionLink("Dashboard", "Index", "Dashboard", null, new { @class = "nav navbar-nav" })</li>
+                </ul>
+                }
+                
                 
             </div>
         </div>

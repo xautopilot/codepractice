@@ -87,7 +87,8 @@ img.toolbar:active {
     top: 2px;
 }
 #banner {
-    background: #679ef1 url("mdocimages/headerbg.png") no-repeat scroll 100% 50%;
+    /*background: #679ef1 url("mdocimages/headerbg.png") no-repeat scroll 100% 50%;*/
+    background-color:greenyellow;
     border-bottom: 1px dotted #3363bd;
 }
 #header {
@@ -96,7 +97,7 @@ img.toolbar:active {
     margin-bottom: 0;
     padding: 0 0 0 15px;
     position: relative;
-    width: 50%;
+    width: 40%;
 }
 #header h1 {
     color: white;

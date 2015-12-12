@@ -2,7 +2,11 @@
     ViewBag.Title = "SCM";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
-<div style="color: rgb(255, 255, 255);" id="banner">
+
+<div id="banner">
+    <div id="header">
+        <h1>Mono Documentation</h1>
+    </div>
     <div id="rightSide">
         <label for="search">Search: </label>
         <input type="search" style="width:19em; margin-right: 10px" placeholder="Enter search request" id="fsearch">
@@ -12,9 +16,7 @@
         </a>
     </div>
 
-    <div id="header">
-        <h1>Mono Documentation</h1>
-    </div>
+    
     <div id="dlogin">
         <a href="javascript:parent.content.login (parent.content.window.location)" id="login"></a>
     </div>
